@@ -1,0 +1,1 @@
+{ "name": "promptus-backend", "version": "1.0.0", "main": "dist/server.js", "scripts": { "start": "node dist/server.js", "build": "tsc", "dev": "ts-node src/server.ts" }, "dependencies": { "@prisma/client": "latest", "express": "latest" }, "devDependencies": { "typescript": "latest", "ts-node": "latest", "@types/node": "latest", "@types/express": "latest" }}
