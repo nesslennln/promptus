@@ -20,7 +20,7 @@ services:
       NODE_ENV: development
       FRONTEND_URL: http://localhost:5173
       ADMIN_PASSWORD: nesslol2020
-    CLAUDE_API_KEY: "sk-ant-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"
+      CLAUDE_API_KEY: ${CLAUDE_API_KEY}
     ports:
       - "3000:3000"
     depends_on:
